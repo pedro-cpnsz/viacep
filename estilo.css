@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    background: #e5e9f5;
+    padding: 10px;
+    height: 100vh;
+}
+
+.container h1, .container p{
+    text-align: center;
+    color: #4b4a3f;
+}
+
+.container a{
+    text-decoration: none;
+    color: #4b4a3f;
+}
+
+.container a:hover{
+    text-decoration: underline;
+}
+
+.numero {
+    width: 25%;
+    float: left;
+}
+
+.complemento {
+    width: 70%;
+    float: right;
+}
+
+.uf{
+    float: left;
+    width: 25%;
+}
+
+.localidade{
+    float: right;
+    width: 70%;
+}
+
+.bairro {
+    width: 100%;
+    float: left;
+}
+.ibge {
+    width: 48%;
+    float: left;
+}
+
+.ddd {
+    width: 48%;
+    float: right;
+}
+form {
+    width: 80%;
+    margin: 0 auto;    
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 8px 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #596788;
+    box-shadow: 0 0 2px #719ECE;
+}
+input[type="text"]:focus{
+    outline: none !important;
+    border:1px solid #bacdff;
+    box-shadow: 0 0 10px #719ECE;
+}
